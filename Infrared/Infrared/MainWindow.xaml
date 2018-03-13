@@ -1,0 +1,21 @@
+﻿<Window x:Class="Infrared.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Infrared"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="806" Width="1038.5">
+    <Grid>
+        <Image x:Name="image" Margin="4,5,126,49"/>
+        <Button x:Name="BtStart" Content="Start" HorizontalAlignment="Left" Margin="8,0,0,8" Width="75" Click="BtStart_Click" Height="22" VerticalAlignment="Bottom"/>
+        <Button x:Name="BtCapturar" Content="Capturar" HorizontalAlignment="Left" Margin="90,0,0,8" Width="74" Height="22" VerticalAlignment="Bottom" Click="BtCapture_Click"/>
+        <RadioButton x:Name="rdAlegria" Content="Alegria" Margin="0,10,19,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="56"/>
+        <RadioButton x:Name="rdTristeza" Content="Tristeza" Margin="0,30,17,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="58"/>
+        <RadioButton x:Name="rdMedo" Content="Medo" Margin="0,50,25,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="50"/>
+        <RadioButton x:Name="rdNojo" Content="Nojo" Margin="0,70,30,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="45"/>
+        <RadioButton x:Name="rdRaiva" Content="Raiva" Margin="0,90,28,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="47"/>
+        <RadioButton x:Name="rdSurpresa" Content="Surpresa" HorizontalAlignment="Right" Margin="0,110,10,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
