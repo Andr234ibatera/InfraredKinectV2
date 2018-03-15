@@ -87,7 +87,7 @@ namespace Infrared
 
                         byte intensity = (byte)(ir >> 7);
 
-                        pixels[colorIndex++] = (byte)(intensity / 0.4); // Blue
+                        pixels[colorIndex++] = (byte)(intensity / 0.7); // Blue
                         pixels[colorIndex++] = (byte)(intensity / 1); // Green   
                         pixels[colorIndex++] = (byte)(intensity / 1); // Red
 
